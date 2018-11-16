@@ -1,0 +1,10 @@
+.space_10 {
+    height: 10px;
+}
+
+a.dark,
+a.dark:active,
+a.dark:link,
+a.dark:visited {
+    color: #666;
+}

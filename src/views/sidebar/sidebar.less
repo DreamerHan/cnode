@@ -1,0 +1,75 @@
+.sidebar {
+    width: 290px;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+    .panel{
+        margin-bottom:13px;
+        border-radius:0 0 3px 3px;
+        
+        .inner{
+            padding:10px;
+            background:#fff;
+            
+            &.app-download{
+                text-align:center;
+            }
+
+            a{ color:#778087; }
+
+            p{
+                font-size:14px;
+                padding:6px 0;
+                margin:0 0 10px;
+            }
+            .span-info{
+                display:inline-block;
+                padding:3px 12px;
+                margin-top:7px;
+                border:none;
+                font-size:14px;
+                transition:all .2s ease-in-out;
+                cursor:pointer;
+                border-radius:3px;
+                line-height:2em;
+                vertical-align: middle;
+                color:#fff;
+                background:#5bc0de;
+                
+                &:hover{
+                    background:#2f96b4;
+                }
+            }
+
+            li{
+                line-height:2em;
+
+                div{
+                    text-overflow: ellipsis;
+                    overflow:hidden;
+
+                    .topic_title{
+                        display:inline-block;
+                        max-width:270px;
+                        font-size:14px;
+                        color:#778087;
+                        white-space: nowrap;
+                        vertical-align: middle;
+                        text-overflow: ellipsis;
+                        overflow:hidden;
+                    }
+                }
+                .score{
+                    padding:2px; margin-right:10px;
+                }
+            }
+        }
+        .panel-header{
+            background:#f6f6f6;
+            color:#51585c;
+            border-radius:3px 3px 0 0;
+            padding:10px;
+        }
+        
+    }
+}
