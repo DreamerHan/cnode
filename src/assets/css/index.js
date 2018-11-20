@@ -1,2 +1,2 @@
 import './common.css';
-import './base.css';
+import './base.less';
