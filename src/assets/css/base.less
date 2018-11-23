@@ -5,6 +5,51 @@
         padding:10px;
         background:#f6f6f6;
         border-radius:3px 3px 0 0;
+
+        .ivu-breadcrumb a{
+            color:#80bd01;
+
+            &:hover{
+                color:#80bd01;
+                text-decoration: underline;
+            }
+        }
+        .ivu-breadcrumb>span:last-child{
+            font-weight:normal;
+            color:#999;
+        }
+    }
+
+    .inner{
+        background:#fff;
+        border-radius:0 0 3px 3px;
+        a{
+            color:#778087;
+        }
+
+        &.topic{
+            padding:10px;
+        }
+
+        .topic-content{
+            margin:0 10px;
+            color:#333;
+            
+            .markdown-text{
+                a{
+                    color:#08c;
+                }
+            }
+            p{
+                white-space: normal;
+                // word-break: break-word;
+                margin:1em 0;
+                font-size:15px;
+                line-height:1.7em;
+                overflow:auto;
+            }
+            
+        }
     }
 }
 

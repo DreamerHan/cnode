@@ -21,16 +21,17 @@
                     <router-view></router-view>   
                 </div>
             </Content>
-            <Footer class="layout-footer-center">2011-2016 &copy; TalkingData</Footer>
+            <pageFoot></pageFoot>
         </Layout>
     </div>
 </template>
 <script>
 import sidebar from '@/views/sidebar'
+import pageFoot from '@/views/pageFoot'
 import menu from '@/api/menu.js'
 
 export default {
-    components : { sidebar },
+    components : { sidebar, pageFoot },
     data(){
         return {
             menu
