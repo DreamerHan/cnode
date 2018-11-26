@@ -1,0 +1,57 @@
+#login{
+    .inner{
+        overflow:hidden;
+        .signIn-form{
+            margin-top:40px;
+            
+            .Inp-line{
+                margin-bottom:20px;
+
+                .Inp-label{
+                    width:160px;
+                    float:left;
+                    padding-top:5px;
+                    text-align: right;
+                    font-size:14px;
+                    line-height:20px;
+                    font-weight:400;
+                }
+
+                .Inp-area{
+                    margin-left:180px;
+
+                    input{
+                        display: inline-block;
+                        width:36%;
+                        box-shadow: 0 0 2px #f8f8f9;
+                        height: 32px;
+                        line-height: 1.5;
+                        padding: 4px 7px;
+                        font-size: 12px;
+                        border: 1px solid #dcdee2;
+                        border-radius: 4px;
+                        color: #515a6e;
+                        background-color: #fff;
+                        background-image: none;
+                        position: relative;
+                        cursor: text;
+                        transition: border .3s ease-in-out,background .3s ease-in-out,box-shadow .2s ease-in-out;
+                    
+                        &:focus,
+                        &:hover{
+                            border-color: #57a3f3;
+                        }
+
+                        &:focus{
+                            outline: 0;
+                            box-shadow: 0 0 0 2px rgba(45,140,240,.2);
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+    
+}
