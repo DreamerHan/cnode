@@ -21,7 +21,13 @@
                             <input type="password" name="password">
                         </div>
                     </div>
+                    
+                    <div class="form-actions">
+                        <input type="submit" class="submit-btn" value="登陆">
+                        <a id="forget-password" href="">忘记密码了？</a>
+                    </div>
                 </div>
+
             </div>
             
         </div>
